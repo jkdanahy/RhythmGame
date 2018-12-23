@@ -64,8 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BeatBehavior.cs" />
+    <Compile Include="Assets\BeatLineMovement.cs" />
     <Compile Include="Assets\BeatSpawner.cs" />
     <Compile Include="Assets\GameController.cs" />
+    <Compile Include="Assets\MapBeatMovement.cs" />
+    <Compile Include="Assets\MapEditorController.cs" />
     <Compile Include="Assets\PassFailMeterController.cs" />
     <Compile Include="Assets\PressHandling.cs" />
   </ItemGroup>

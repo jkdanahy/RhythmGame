@@ -12,12 +12,12 @@ public class PressHandling : MonoBehaviour {
     void Start () {
         beatsInside = new List<GameObject>();
         soundPlayed = false;
+        source = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        source = GetComponent<AudioSource>();
         /*if (beatsInside.Count > 0 && !soundPlayed && Mathf.Abs(beatsInside[0].transform.position.y - transform.position.y) < .5f)
         {
             soundPlayed = true;
